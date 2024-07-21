@@ -1,0 +1,11 @@
+:root {
+    /* colours */
+    --color-text: #fff;
+    --color-primary: #000;
+    --color-secondary: #564556;
+    --color-dark: #000;
+    --color-bg: #141416;
+
+    /* fonts */
+    --font-Sourse-Sans: "Source Sans Pro";
+}

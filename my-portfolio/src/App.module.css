@@ -1,0 +1,10 @@
+@import "./vars.css";
+
+.App {
+    background-color: var(--color-bg);
+    font-family: var(--font-Sourse-Sans);
+    font-weight: 600;
+    color: whitesmoke;
+    width: 100%;
+    height: 100%;
+}
