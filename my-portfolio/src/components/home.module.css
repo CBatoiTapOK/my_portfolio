@@ -1,0 +1,107 @@
+@import "../vars.css";
+
+.home {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    margin-top: 64px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: var(--color-text);
+    z-index: 1;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    padding-top: 128px;
+    z-index: 1;
+}
+
+.title {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: var(--font-Sourse-Sans);
+    margin-bottom: 16px;
+}
+
+.discription {
+    font-size: 25px;
+    font-weight: 300;
+    font-family: var(--font-Sourse-Sans);
+    margin-bottom: 16px;
+}
+
+.aboutBtn {
+    display: flex;
+    width:fit-content;
+    flex-direction: row;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: var(--font-Sourse-Sans);
+    text-decoration: none;
+    color: var(--color-secondary)
+}
+
+.PointerIcon {
+    height: 25px;
+    width: auto;
+    margin-top: 2px;
+    margin-left: 4px;
+    transform-origin: center;
+    transform: rotate(-90deg);
+    transition: transform 0.2s ease-in-out;
+}
+
+.aboutBtn:hover .PointerIcon{
+    transform: rotate(0deg);
+}
+
+.deskimage {
+    height: auto;
+    width: 50%;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.CubeIcon {
+    position: absolute;
+    height: auto;
+    width: 8%;
+    bottom: -10%;
+    right: -7%;
+    transform-origin: center;
+    transform: rotate(27deg);
+    pointer-events: none;
+}
+
+.PyramidIcon {
+    position: absolute;
+    height: auto;
+    width: 10%;
+    top: -5%;
+    right: 80%;
+    transform-origin: center;
+    transform: rotate(27deg);
+    filter:blur(5px);
+    pointer-events: none;
+}
+
+.CodeIcon {
+    position: absolute;
+    height: auto;
+    width: 35%;
+    bottom:  -58%;
+    left: -18%;
+    filter:blur(5px);
+    pointer-events: none;
+}

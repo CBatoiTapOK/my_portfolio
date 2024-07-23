@@ -5,9 +5,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2rem;
+    padding: 3rem;
     margin: 0 0;
-    background-color: rgba(14, 14, 16, 0.95);
+    background-color: rgba(14, 14, 16, 0.2);
 }
 
 .title {
@@ -21,37 +21,26 @@
 
 .menu {
     display: flex;
-
 }
 
-.menuitems{
-    display: flex;
-    gap: 2.5rem;
-    list-style: none;
-}
-
-.menuitems a {
+.contactbtn {
     font-size: 1.25rem;
     font-family: var(--font-Sourse-Sans);
     font-weight: 600;
     letter-spacing: 2px;
     text-decoration: none;
     color: var(--color-text);
-}
-
-.buttonlink {
-    border: 3px solid #2191FB;
+    border: 3px solid white;
     border-radius: 10px;
     padding: 10px 20px;
     transition: background-color 0.5s ease, color 0.5s ease;
 }
 
-.buttonlink:hover {
-    background-color: #2191FB;
+.contactbtn:hover {
+    background-color: white;
     color: var(--color-bg);
 }
 
-.MenuIcon {
-    width: 48px;
-    height: auto;
+
+@media screen and (max-width: 900px) {
 }
